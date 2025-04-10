@@ -1,0 +1,9 @@
+.box
+{
+    width: 50%;
+    height: 200px;
+    background-color: aquamarine;
+    /* solid dotted double dashed */
+    border: 2px dashed palevioletred;
+ 
+}
