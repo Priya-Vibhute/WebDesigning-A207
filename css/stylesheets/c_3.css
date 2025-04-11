@@ -5,5 +5,32 @@
     background-color: aquamarine;
     /* solid dotted double dashed */
     border: 2px dashed palevioletred;
- 
+
+}
+
+#box1
+{
+    text-align: left;
+    word-spacing: 40px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+
+}
+
+#box2
+{
+    text-align: right;
+    letter-spacing: 10px;
+}
+
+#box3
+{
+    text-align: center;
+    line-height: 40px;
+}
+
+#box4
+{
+    text-align: justify;
 }

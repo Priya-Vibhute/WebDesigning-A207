@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,669;1,669&display=swap');
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .heading
+  {
+    background-color:#F7CFD8;
+    text-align: center;
+  }
+
+  .para
+  {
+   background-color: #8E7DBE; 
+   display: inline-block;
+   width: 300px;
+   height: 50px;
+   color: #f18e0d;
+   /*  T R B L   | TB  LR | T RL B  */
+   margin: 10px 20px 10px 180px;
+   box-shadow:10px 10px 10px 0px gainsboro;
+
+  }
+
+  span
+  {
+    background-color:#F7CFD8;
+    display: block;
+  }
+
+  .box
+  {
+    height: 200px;
+    width: 200px;
+    background-color: #8E7DBE;
+    border: 2px solid #F4F8D3;
+    display: inline-block;
+    margin: 20px 30px 0px 0px;
+    box-shadow: 0px 0px 10px rgb(246, 113, 113);
+  }
+
+  .container
+  {
+    margin: 0px 0px 0px 180px;
+  }
+
+  #box1
+  {
+    border-radius: 10%;
+  }
+
+  #box2
+  {
+    /*  TL-BR   TR-BL */
+    /* TL   TR-BL  BR */
+    border-radius: 50% 0% 20%;
+  }
+
+#box3
+{
+    border-radius:  0% 0% 50% 50%;
+}
+
+.shadow
+{
+    text-align: center;
+    text-shadow: 0px 0px 3px red;
+}
