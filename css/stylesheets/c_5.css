@@ -1,0 +1,67 @@
+/* Descendant selector */
+
+.box
+{
+    border: 2px solid black;
+}
+.box p{
+
+    background-color: plum;
+   
+}
+
+/* Child Selector */
+.box > p 
+{
+    border: 2px solid black;
+}
+
+/* Adjacent Sibling selector */
+.box + p
+{
+    background-color: cornflowerblue;
+}
+
+.box ~ p
+{
+   border: 4px rgb(185, 232, 175) solid;
+}
+
+.para::first-letter
+{
+     color: red;
+     font-size: 50px;
+}
+
+.para::first-line
+{
+    background-color: aqua;
+}
+
+li:first-child
+{
+    color: red;
+}
+
+li:last-child
+{
+    color: aqua;
+}
+
+li:nth-child(3)
+{
+    border : 3px solid slateblue;
+}
+
+
+li:nth-child(odd)
+{
+   background-color: plum;
+}
+
+button:hover
+{
+    background-color: aqua;
+}
+
+
