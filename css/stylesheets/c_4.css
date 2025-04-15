@@ -40,6 +40,9 @@
     display: inline-block;
     margin: 20px 30px 0px 0px;
     box-shadow: 0px 0px 10px rgb(246, 113, 113);
+    background-image: url(../../html/images/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .container
