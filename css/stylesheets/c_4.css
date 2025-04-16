@@ -43,6 +43,7 @@
     background-image: url(../../html/images/photo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 60% 0%;
   }
 
   .container
